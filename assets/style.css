@@ -1,0 +1,75 @@
+* {
+  margin: auto;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+  border-radius: 3px;
+}
+.colorBlock {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+#container {
+  padding-top: 100px;
+  height: 100%;
+  width: 100%;
+}
+#currentcolors {
+  display: none;
+  text-align: center;
+  bottom-margin: 4px;
+}
+#directions {
+  padding-top: 100px;
+}
+#headbox {
+  display: none;
+  position: relative;
+  width: 100%;
+  line-height: 100px;
+  height: 100px;
+  background-color: white;
+  top: 0;
+  left: 0;
+  border-radius: 0px;
+}
+#lilBox {
+  position: fixed;
+  height: 70vh;
+  width: 39%;
+  border: black 2px solid;
+  text-align: right;
+}
+#L70 {
+  float: left;
+  width: 60%;
+  margin: auto;
+}
+#R30 {
+  float: right;
+  width: 40%;
+  height: 100%;
+}
+#resetButtons {
+  display: none;
+  position: fixed;
+  text-align: center;
+  bottom: 5px;
+}
+.thecolors {
+  display: inline;
+  text-align: center;
+}
+#top{
+  position: fixed;
+  width: 100%;
+  font-size: 50px;
+  line-height: 100px;
+  height: 100px;
+  background: white;
+  color: black;
+}
+.ughbutton {
+  padding: 10px;
+  font-weight: bold;
+}
